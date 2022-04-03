@@ -13,6 +13,7 @@ public class MyController {
     @RequestMapping("/doquery")
     public String doQuery(Model model){
         model.addAttribute("name","name");
+        System.out.println(1);
         return "test";
     }
 }
